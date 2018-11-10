@@ -2,3 +2,10 @@ body {
   font-family: 'Miss Fajardose', cursive;
   font-size: 100px;
 }
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
