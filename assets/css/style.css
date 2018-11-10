@@ -1,3 +1,11 @@
+/* Available font-families
+font-family: 'Allura', cursive;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Miss Fajardose', cursive;
+font-family: 'Mr De Haviland', cursive;
+font-family: 'Ruthie', cursive;
+ */
+
 html, body {
   height: 100%;
 }
@@ -23,8 +31,11 @@ body {
 }
 
 #mainpage-brand {
-  font-family: 'Miss Fajardose', cursive;
+  font-family: 'Allura', cursive;
   font-size: 175px;
-  color:#222;
-  text-shadow: 0 2px 3px #555;
+  /* color:#222;
+  text-shadow: 0 2px 3px #555; */
+  color: whitesmoke;
+  text-shadow: 2px 3px 4px darkgrey;
+  letter-spacing: 0.04em;
 }
