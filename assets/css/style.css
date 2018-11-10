@@ -24,6 +24,7 @@ body {
 
 #mainpage-brand {
   font-family: 'Miss Fajardose', cursive;
-  font-size: 150px;
-  color: silver;
+  font-size: 175px;
+  color:#222;
+  text-shadow: 0 2px 3px #555;
 }
