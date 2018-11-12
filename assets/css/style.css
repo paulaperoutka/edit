@@ -27,7 +27,7 @@ body {
   justify-content: center;
   /* align parent content on cross-axis */
   align-items: center;
-  /* align content is for multiple line behavior on the cross axis, not effect on single line */
+  /* align content is for multiple line behavior on the cross axis, no effect on single line */
 }
 
 #mainpage-brand {
