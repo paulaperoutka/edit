@@ -1,5 +1,5 @@
-window.onload() = function () {
-  document.on("click", function() {
+window.onload = function () {
+  document.onclick = function () {
     window.location.href = "../pages/landing.html";
-  });
+  };
 };
