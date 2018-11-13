@@ -20,7 +20,7 @@ body {
 
 body-2 {
   background: white;
-  background-image: none;
+  background-image: url("../images/landing.jpg");
 }
 
 .container {
