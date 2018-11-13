@@ -18,6 +18,11 @@ body {
   background-position: center;
 }
 
+body-2 {
+  background: white;
+  background-image: none;
+}
+
 .container {
   display: flex;
   /* defaukt behaviour */
