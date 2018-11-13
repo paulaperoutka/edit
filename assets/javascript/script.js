@@ -1,5 +1,6 @@
 window.onload = function () {
-  document.onclick = function () {
+
+  document.getElementById("mainpage-brand").onclick = function () {
     window.location.href = "./assets/pages/landing.html";
   };
 };

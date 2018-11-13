@@ -6,21 +6,19 @@ font-family: 'Mr De Haviland', cursive;
 font-family: 'Ruthie', cursive;
  */
 
+/* All */
+
 html, body {
   height: 100%;
 }
 
+/* Splash Page */
+
 body {
-  background-image: url("../images/splash.jpg");
-  background-repeat: none;
+  background-image: url("../images/landing.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-}
-
-body-2 {
-  background: white;
-  background-image: url("../images/landing.jpg");
 }
 
 .container {
@@ -43,4 +41,19 @@ body-2 {
   color: whitesmoke;
   text-shadow: 2px 3px 4px darkgrey;
   letter-spacing: 0.04em;
+}
+
+/* Landing Page */
+
+#body-2 {
+  /* background: white; */
+  background-image: url("../images/landing.jpg");
+}
+
+.navigation {
+  background: white;
+  /* margin: 0; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
 }
