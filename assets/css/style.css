@@ -57,3 +57,10 @@ body {
   flex-flow: row wrap;
   justify-content: flex-end;
 }
+
+#magda-bio {
+  display: flex;
+  justify-content: center;
+  width: 66%;
+  
+}
