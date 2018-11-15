@@ -62,5 +62,6 @@ body {
   display: flex;
   justify-content: center;
   width: 33%;
-  height: 33%
+  height: 33%;
+  font-family:'Mr De Haviland', cursive;
 }
