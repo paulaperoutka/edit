@@ -71,6 +71,8 @@ li {
 
 a {
   margin-left: -2px;
+  text-decoration: none;
+  font-family: 'Allura', cursive;
 }
 
 #magda-bio {
@@ -80,4 +82,5 @@ a {
   font-family:'Mr De Haviland', cursive;
   align-content: center;
   font-size: 40px;
+  color: white;
 }
