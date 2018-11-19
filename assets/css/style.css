@@ -89,4 +89,9 @@ a {
   border-width: 2px;
   border-color: white;
   margin: 16px;
+  padding-left: 16px;
+}
+
+#bio-header {
+  margin: 0;
 }
