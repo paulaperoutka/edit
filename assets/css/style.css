@@ -63,6 +63,7 @@ body {
   width: auto;
   flex-flow: row wrap;
   justify-content: flex-end;
+  margin: 0;
 }
 
 li {
@@ -77,6 +78,7 @@ a {
 
 #magda-bio {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   height: 33%;
   font-family:'Mr De Haviland', cursive;
@@ -86,5 +88,5 @@ a {
   border-style: solid;
   border-width: 2px;
   border-color: white;
-  margin: 0 8px 8px 8px;
+  margin: 16px;
 }
