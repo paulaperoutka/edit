@@ -64,6 +64,7 @@ body {
   flex-flow: row wrap;
   justify-content: flex-end;
   margin: 0;
+  opacity: 0.85;
 }
 
 ul {
