@@ -104,6 +104,6 @@ a {
 
 @media only screen and (max-width: 500px) {
   .navigation {
-    background: black;
+    background: none;
   }
 }
