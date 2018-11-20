@@ -101,3 +101,9 @@ a {
 #bio-header {
   margin: 0;
 }
+
+@media only screen and (max-width: 300px) {
+  .navigation {
+    background: black;
+  }
+}
