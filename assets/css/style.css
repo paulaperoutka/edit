@@ -102,6 +102,10 @@ a {
   margin: 0;
 }
 
+.quote {
+  font-size: 20px;
+}
+
 /* font-family: 'Raleway', sans-serif;
 font-family: 'Quicksand', sans-serif;
 font-family: 'KoHo', sans-serif;
