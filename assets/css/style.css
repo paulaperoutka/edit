@@ -79,7 +79,10 @@ body {
   display: flex;
   width: auto;
   flex-flow: row wrap;
-  justify-content: flex-end;
+  /* right align: */
+  /* justify-content: flex-end; */
+  /* center */
+  justify-content: center;
   margin: 0;
   opacity: 0.85;
 }
