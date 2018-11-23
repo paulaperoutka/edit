@@ -97,6 +97,15 @@ a {
   font-family: 'Allura', cursive;
 }
 
+a:visited {
+  text-decoration: none; 
+  color: lightgoldenrodyellow;
+}
+
+a:hover {
+  color: lightcoral;
+}
+
 #magda-bio {
   display: flex;
   flex-wrap: wrap;
