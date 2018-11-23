@@ -23,17 +23,18 @@ body {
 
 .container {
   display: flex;
-  /* defaukt behaviour */
+  /* default behaviour */
   /* flex-direction: row; */
   margin: auto;
   height: 100%;
   justify-content: center;
-  /* align parent content on cross-axis */
+  /* align-items: align parent content on cross-axis */
   align-items: center;
-  /* align content is for multiple line behavior on the cross axis, no effect on single line */
+  /* align-content is for multiple line behavior on the cross axis, no effect on single line */
 }
 
-#mainpage-brand {
+.mainpage-brand {
+  flex: block;
   font-family: 'Allura', cursive;
   font-size: 175px;
   /* color:#222;
@@ -41,6 +42,18 @@ body {
   color: whitesmoke;
   text-shadow: 2px 3px 4px darkgrey;
   letter-spacing: 0.04em;
+}
+
+#edit-welcome {
+  font-size: 75px;
+}
+
+#edit-logo {
+  font-size: 175px;
+}
+
+#edit-logo:hover {
+  color: lightgrey;
 }
 
 /* Landing Page */
@@ -54,11 +67,13 @@ body {
 
 #nav-wrapper {
   width: 100%;
+  /* clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%); */
 }
 
 .navigation {
   background: black;
   padding-right: 10px;
+  padding-bottom: 30px;
   display: flex;
   width: auto;
   flex-flow: row wrap;
