@@ -6,13 +6,13 @@ font-family: 'Mr De Haviland', cursive;
 font-family: 'Ruthie', cursive;
  */
 
-/* All */
+/* All ---------------------------------------------------------------------------------------------------------- */
 
 html, body {
   height: 100%;
 }
 
-/* Splash Page */
+/* Splash Page ---------------------------------------------------------------------------------------------------------- */
 
 body {
   background-image: url("../images/landing.jpg");
@@ -85,8 +85,6 @@ body {
   opacity: 0.85;
 }
 
-/* Landing Page ----------------------------------------------------------------------------------------------------------*/
-
 ul {
   list-style-type: none;
 }
@@ -122,6 +120,8 @@ a:active {
   color: whitesmoke;
   text-shadow: 2px 3px 4px darkgrey;
 }
+
+/* Landing Page ---------------------------------------------------------------------------------------------------------- */
 
 #magda-bio {
   display: flex;
@@ -192,10 +192,16 @@ font-family: 'Montserrat Subrayada', sans-serif; */
 #font-choice-15 {font-family: 'IM Fell English SC', serif;}
 #font-choice-16 {font-family: 'Montserrat Subrayada', sans-serif;}
 
-/* Contact Page ----------------------------------------------------------------------------------------------------------*/
+/* Contact Page ---------------------------------------------------------------------------------------------------------- */
+
+#contact-page-body {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  color: white;
+}
 
 
-/* Media Queries ----------------------------------------------------------------------------------------------------------*/
+/* Media Queries ---------------------------------------------------------------------------------------------------------- */
 
 @media only screen and (max-width: 500px) {
   .navigation {
