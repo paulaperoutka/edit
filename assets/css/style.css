@@ -56,7 +56,7 @@ body {
   color: lightgrey;
 }
 
-/* Landing Page */
+/* Landing Page ----------------------------------------------------------------------------------------------------------*/
 
 #body-2 {
   /* background: white; */
@@ -191,6 +191,11 @@ font-family: 'Montserrat Subrayada', sans-serif; */
 #font-choice-14 {font-family: 'Gabriela', serif;}
 #font-choice-15 {font-family: 'IM Fell English SC', serif;}
 #font-choice-16 {font-family: 'Montserrat Subrayada', sans-serif;}
+
+/* Contact Page ----------------------------------------------------------------------------------------------------------*/
+
+
+/* Media Queries ----------------------------------------------------------------------------------------------------------*/
 
 @media only screen and (max-width: 500px) {
   .navigation {
