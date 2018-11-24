@@ -56,9 +56,7 @@ body {
   color: lightgrey;
 }
 
-/* Landing Page ----------------------------------------------------------------------------------------------------------*/
-
-#body-2 {
+.body-2 {
   /* background: white; */
   background-image: url("../images/landing.jpg");
   width: auto;
@@ -86,6 +84,8 @@ body {
   margin: 0;
   opacity: 0.85;
 }
+
+/* Landing Page ----------------------------------------------------------------------------------------------------------*/
 
 ul {
   list-style-type: none;
