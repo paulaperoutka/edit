@@ -6,6 +6,86 @@ font-family: 'Mr De Haviland', cursive;
 font-family: 'Ruthie', cursive;
  */
 
+/* Landing Page ---------------------------------------------------------------------------------------------------------- */
+
+#magda-bio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 33%;
+  font-family:'Mr De Haviland', cursive;
+  align-content: center;
+  font-size: 40px;
+  color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  margin: 16px;
+  padding-left: 16px;
+}
+
+#bio-header {
+  margin: 0;
+}
+
+.quote-wrapper {
+  width: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  /* align-content: stretch; */
+}
+
+.quote {
+  font-size: 30px;
+  width: 300px;
+  text-align: center;
+}
+
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'KoHo', sans-serif;
+font-family: 'Maven Pro', sans-serif;
+font-family: 'Alegreya', serif;
+font-family: 'Quattrocento Sans', sans-serif;
+font-family: 'Pontano Sans', sans-serif;
+font-family: 'Cormorant Upright', serif;
+font-family: 'Sawarabi Mincho', sans-serif;
+font-family: 'El Messiri', sans-serif;
+font-family: 'Syncopate', sans-serif;
+font-family: 'Fauna One', serif;
+font-family: 'Andika', sans-serif;
+font-family: 'Gabriela', serif;
+font-family: 'IM Fell English SC', serif;
+font-family: 'Montserrat Subrayada', sans-serif; */
+
+#font-choice-1 {font-family: 'Raleway', sans-serif;}
+#font-choice-2 {font-family: 'Quicksand', sans-serif;}
+#font-choice-3 {font-family: 'KoHo', sans-serif;}
+#font-choice-4 {font-family: 'Maven Pro', sans-serif;}
+#font-choice-5 {font-family: 'Alegreya', serif;}
+#font-choice-6 {font-family: 'Quattrocento Sans', sans-serif;}
+#font-choice-7 {font-family: 'Pontano Sans', sans-serif;}
+#font-choice-8 {font-family: 'Cormorant Upright', serif;}
+#font-choice-9 {font-family: 'Sawarabi Mincho', sans-serif;}
+#font-choice-10 {font-family: 'El Messiri', sans-serif;}
+#font-choice-11 {font-family: 'Syncopate', sans-serif;}
+#font-choice-12 {font-family: 'Fauna One', serif;}
+#font-choice-13 {font-family: 'Andika', sans-serif;}
+#font-choice-14 {font-family: 'Gabriela', serif;}
+#font-choice-15 {font-family: 'IM Fell English SC', serif;}
+#font-choice-16 {font-family: 'Montserrat Subrayada', sans-serif;}
+
+/* Contact Page ---------------------------------------------------------------------------------------------------------- */
+
+#contact-page-body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: whitesmoke;
+
+}
+
 /* All ---------------------------------------------------------------------------------------------------------- */
 
 html, body {
@@ -120,86 +200,6 @@ a:active {
   margin-top: -10px;
   color: whitesmoke;
   text-shadow: 2px 3px 4px darkgrey;
-}
-
-/* Landing Page ---------------------------------------------------------------------------------------------------------- */
-
-#magda-bio {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  height: 33%;
-  font-family:'Mr De Haviland', cursive;
-  align-content: center;
-  font-size: 40px;
-  color: white;
-  border-style: solid;
-  border-width: 2px;
-  border-color: white;
-  margin: 16px;
-  padding-left: 16px;
-}
-
-#bio-header {
-  margin: 0;
-}
-
-.quote-wrapper {
-  width: fit-content;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: flex-end;
-  /* align-content: stretch; */
-}
-
-.quote {
-  font-size: 30px;
-  width: 300px;
-  text-align: center;
-}
-
-/* font-family: 'Raleway', sans-serif;
-font-family: 'Quicksand', sans-serif;
-font-family: 'KoHo', sans-serif;
-font-family: 'Maven Pro', sans-serif;
-font-family: 'Alegreya', serif;
-font-family: 'Quattrocento Sans', sans-serif;
-font-family: 'Pontano Sans', sans-serif;
-font-family: 'Cormorant Upright', serif;
-font-family: 'Sawarabi Mincho', sans-serif;
-font-family: 'El Messiri', sans-serif;
-font-family: 'Syncopate', sans-serif;
-font-family: 'Fauna One', serif;
-font-family: 'Andika', sans-serif;
-font-family: 'Gabriela', serif;
-font-family: 'IM Fell English SC', serif;
-font-family: 'Montserrat Subrayada', sans-serif; */
-
-#font-choice-1 {font-family: 'Raleway', sans-serif;}
-#font-choice-2 {font-family: 'Quicksand', sans-serif;}
-#font-choice-3 {font-family: 'KoHo', sans-serif;}
-#font-choice-4 {font-family: 'Maven Pro', sans-serif;}
-#font-choice-5 {font-family: 'Alegreya', serif;}
-#font-choice-6 {font-family: 'Quattrocento Sans', sans-serif;}
-#font-choice-7 {font-family: 'Pontano Sans', sans-serif;}
-#font-choice-8 {font-family: 'Cormorant Upright', serif;}
-#font-choice-9 {font-family: 'Sawarabi Mincho', sans-serif;}
-#font-choice-10 {font-family: 'El Messiri', sans-serif;}
-#font-choice-11 {font-family: 'Syncopate', sans-serif;}
-#font-choice-12 {font-family: 'Fauna One', serif;}
-#font-choice-13 {font-family: 'Andika', sans-serif;}
-#font-choice-14 {font-family: 'Gabriela', serif;}
-#font-choice-15 {font-family: 'IM Fell English SC', serif;}
-#font-choice-16 {font-family: 'Montserrat Subrayada', sans-serif;}
-
-/* Contact Page ---------------------------------------------------------------------------------------------------------- */
-
-#contact-page-body {
-  font-family: 'Raleway', sans-serif;
-  font-size: 20px;
-  color: white;
-
 }
 
 
