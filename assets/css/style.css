@@ -83,7 +83,13 @@ font-family: 'Montserrat Subrayada', sans-serif; */
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   color: whitesmoke;
+}
 
+form {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  
 }
 
 /* All ---------------------------------------------------------------------------------------------------------- */
