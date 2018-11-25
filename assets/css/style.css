@@ -98,6 +98,7 @@ a {
   margin-left: -2px;
   text-decoration: none;
   font-family: 'Gabriela', serif;
+  color: whitesmoke;
 }
 
 a:visited {
@@ -195,10 +196,12 @@ font-family: 'Montserrat Subrayada', sans-serif; */
 /* Contact Page ---------------------------------------------------------------------------------------------------------- */
 
 #contact-page-body {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 20px;
   color: white;
+
 }
+
 
 
 /* Media Queries ---------------------------------------------------------------------------------------------------------- */
