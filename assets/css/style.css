@@ -89,7 +89,10 @@ form {
   margin: 0;
   display: flex;
   justify-content: center;
-  
+}
+
+.fieldname {
+  display: inline-flex;
 }
 
 /* All ---------------------------------------------------------------------------------------------------------- */
