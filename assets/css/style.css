@@ -112,14 +112,15 @@ body {
 
 .container {
   display: flex;
-  /* default behaviour */
-  /* flex-direction: row; */
+  /* default behaviour flexdir row*/
+  flex-direction: column;
   margin: auto;
   height: 100%;
   justify-content: center;
   /* align-items: align parent content on cross-axis */
   align-items: center;
   /* align-content is for multiple line behavior on the cross axis, no effect on single line */
+    /* align-items: center; */
 }
 
 .mainpage-brand {
