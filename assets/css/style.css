@@ -144,7 +144,8 @@ body {
 }
 
 #edit-logo:hover {
-  color: lightgrey;
+  /* color: lightgrey; */
+  color: rgb(11, 43, 49);
 }
 
 .body-2 {
