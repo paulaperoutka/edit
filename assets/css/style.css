@@ -146,6 +146,7 @@ body {
 #edit-logo:hover {
   /* color: lightgrey; */
   color: rgb(11, 43, 49);
+  text-shadow: 2px 3px 4px rgb(111, 144, 163);
 }
 
 .body-2 {
