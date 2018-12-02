@@ -164,8 +164,26 @@ a:active {
 
 /* Media Queries ---------------------------------------------------------------------------------------------------------- */
 
-@media only screen and (max-width: 500px) {
-  .navigation {
+@media only screen and (max-width: 635px) {
+  /* .navigation {
     background: none;
+  } */
+
+  /* .container {
+    flex-direction: row;
+  } */
+
+  .mainpage-brand {
+    align-content: center;
   }
+
+  #edit-welcome {
+    align-content: center;
+    margin-bottom: 0;
+  }
+
+  #edit-logo {
+    justify-content: center;
+  }
+
 }
