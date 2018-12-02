@@ -92,6 +92,10 @@ a:active {
   margin: 0;
 }
 
+#bio-text {
+  flex-wrap: wrap;
+}
+
 .quote-wrapper {
   width: fit-content;
   display: flex;
@@ -140,3 +144,10 @@ font-family: 'Montserrat Subrayada', sans-serif; */
 #font-choice-14 {font-family: 'Gabriela', serif;}
 #font-choice-15 {font-family: 'IM Fell English SC', serif;}
 #font-choice-16 {font-family: 'Montserrat Subrayada', sans-serif;}
+
+@media screen only and (max-width: 635px) {
+  #magda-bio {
+    width: 75%;
+    text-wrap: wrap;
+  }
+}
