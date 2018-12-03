@@ -22,23 +22,7 @@ font-family: 'Gabriela', serif;
 font-family: 'IM Fell English SC', serif;
 font-family: 'Montserrat Subrayada', sans-serif; */
 
-/* Contact Page ---------------------------------------------------------------------------------------------------------- */
 
-#contact-page-body {
-  font-family: 'Raleway', sans-serif;
-  font-size: 20px;
-  color: whitesmoke;
-}
-
-form {
-  margin: 0;
-  display: flex;
-  justify-content: center;
-}
-
-.fieldname {
-  display: inline-flex;
-}
 
 /* Splash Page ---------------------------------------------------------------------------------------------------------- */
 
