@@ -145,9 +145,9 @@ font-family: 'Montserrat Subrayada', sans-serif; */
 #font-choice-15 {font-family: 'IM Fell English SC', serif;}
 #font-choice-16 {font-family: 'Montserrat Subrayada', sans-serif;}
 
-@media screen only and (max-width: 635px) {
+@media only screen and (max-width: 635px) {
   #magda-bio {
     width: 75%;
-    text-wrap: wrap;
+    text-emphasis: wrap;
   }
 }
