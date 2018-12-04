@@ -145,6 +145,80 @@ font-family: 'Montserrat Subrayada', sans-serif; */
 #font-choice-15 {font-family: 'IM Fell English SC', serif;}
 #font-choice-16 {font-family: 'Montserrat Subrayada', sans-serif;}
 
+/* All ---------------------------------------------------------------------------------------------------------- */
+
+html, body {
+  height: 100%;
+}
+
+.body-2 {
+  /* background: white; */
+  background-image: url("../images/landing.jpg");
+  width: auto;
+  margin: 0;
+}
+
+#nav-wrapper {
+  width: 100%;
+  /* clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%); */
+}
+
+.navigation {
+  background-image: linear-gradient( rgb(48, 48, 48, 1), rgb(48, 48, 48, 0));
+  /* background: black; */
+  padding-right: 10px;
+  padding-bottom: 30px;
+  padding-top: 10px;
+  display: flex;
+  width: auto;
+  flex-flow: row wrap;
+  /* right align: */
+  /* justify-content: flex-end; */
+  /* center */
+  justify-content: center;
+  margin: 0;
+  opacity: 0.85;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin: 6px 10px 10px 18px;  
+  text-decoration: none;
+}
+
+a {
+  margin-left: -2px;
+  text-decoration: none;
+  font-family: 'Gabriela', serif;
+  color: whitesmoke;
+}
+
+a:visited {
+  text-decoration: none; 
+  color: whitesmoke;
+}
+
+a:hover {
+  color: rgb(46, 156, 207);
+}
+
+a:active {
+  color: darkgrey;
+}
+
+#nav-logo {
+  font-family: 'Allura', cursive;
+  font-size: 48px;
+  margin-top: -10px;
+  color: whitesmoke;
+  text-shadow: 2px 3px 4px darkgrey;
+}
+
+
+
 @media only screen and (max-width: 635px) {
   #magda-bio {
     width: 75%;
