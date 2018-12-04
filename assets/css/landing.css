@@ -217,7 +217,7 @@ a:active {
   text-shadow: 2px 3px 4px darkgrey;
 }
 
-
+/* Media Queries ---------------------------------------------------------------------------------------------------------- */
 
 @media only screen and (max-width: 635px) {
   #magda-bio {
