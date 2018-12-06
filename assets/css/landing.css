@@ -76,7 +76,7 @@ a:active {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  height: 33%;
+  height: 30%;
   width: 30%;
   font-family:'Mr De Haviland', cursive;
   align-content: center;
@@ -85,17 +85,18 @@ a:active {
   border-style: solid;
   border-width: 2px;
   border-color: white;
-  margin: auto;
-  /* margin: 16px; */
-  /* padding-left: 16px; */
+  margin: 50px auto 50px auto;
+  padding-top: 24px;
 }
 
 #bio-header {
   margin: 0;
+  padding-top: 12px;
 }
 
 #bio-text {
   flex-wrap: wrap;
+  width: 95%;
 }
 
 .quote-wrapper {
