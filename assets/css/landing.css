@@ -7,8 +7,8 @@ html, body {
 body {
   /* background-image: url("../images/meet-magda.jpg"); */
   background-attachment: fixed;
-  background-size: cover;
-  background-position: top;
+  background-size: 103git a%;
+  background-position: right top;
   width: auto;
   margin: 0;
 }
@@ -159,6 +159,7 @@ html, body {
   background-image: url("../images/meet-magda.jpg");
   width: auto;
   margin: 0;
+  /* background-position-y: -24px; */
 }
 
 #nav-wrapper {
