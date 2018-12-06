@@ -4,8 +4,8 @@ html, body {
   height: 100%;
 }
 
-body {
-  background-image: url("../images/blacksand.jpg");
+body-2 {
+  background-image: url("../images/meet-magda.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
